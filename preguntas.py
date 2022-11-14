@@ -34,7 +34,6 @@ def pregunta_02():
     """
     Preparación del dataset.
     """
-
     # Importe train_test_split
     from sklearn.model_selection import train_test_split
 
@@ -56,7 +55,7 @@ def pregunta_02():
     )  
 
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
-    return x_train, x_test, y_train,
+    return x_train, x_test, y_train, y_test
 
 
 def pregunta_03():
